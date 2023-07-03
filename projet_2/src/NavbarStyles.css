@@ -1,0 +1,32 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E8E7DC;
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px rgba(rgb(6, 6, 6), rgb(5, 5, 5), rgb(5, 5, 5), alpha);
+    border-bottom: 2px solid #060606; /* Change the color and size of the bottom border */
+
+}
+#navb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#navb li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#navb li a{
+    text-decoration:none ;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #000;
+    transition: 0.3s ease-in-out;
+}
+#navb li a:hover{
+    color: aliceblue;
+
+}
