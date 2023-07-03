@@ -41,7 +41,7 @@ const Navbar = () => {
         <li><a href="/">Home</a>
         </li>
         <li><a href="#" onClick={handleJewelsClick}>
-            Bijoux</a>
+            Jewelry</a>
             {showFacetedSearch && (
             <div className="faceted-search">
               <div className="faceted-search-window">
@@ -90,9 +90,9 @@ const Navbar = () => {
             </div>
           )}
         </li>
-        <li><a href="/maintenance-tips">Conseils d'entretien</a>
+        <li><a href="/maintenance-tips">Maintenance tips</a>
         </li>
-        <li><a href="/contact-us">Contactez-nous</a>
+        <li><a href="/contact-us">Contact-us</a>
         </li>
       </ul>
       </div>  

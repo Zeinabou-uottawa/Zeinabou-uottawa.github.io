@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className="homepage">
       <h1>Welcome to our site dedicated to the world of jewelry, where elegance and refinement come to life!</h1>
-      <h2>Best sellers</h2>
+      <h2>Best sellers:</h2>
       <div className="image-container">
         <img src={homepage} alt="Article 1" className="article-image" />
         <img src={home} alt="Article 2" className="article-image" />

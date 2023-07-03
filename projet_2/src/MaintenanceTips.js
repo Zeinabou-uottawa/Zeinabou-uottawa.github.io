@@ -4,7 +4,7 @@ import './styles.css'; // Import the CSS file
 const MaintenanceTips = () => {
   return (
     <div className="maintenance-tips-container">
-      <h1 className="maintenance-tips-heading">Maintenace tips</h1>
+      <h1 className="maintenance-tips-heading">Maintenance tips</h1>
       
       <ul className="maintenance-tips-list">
         <li>-Appropriate cleaning methods for each material</li>

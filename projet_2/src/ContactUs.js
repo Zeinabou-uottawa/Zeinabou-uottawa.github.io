@@ -35,7 +35,7 @@ const ContactUs = () => {
         </div>
       </div>
       <div className="contact-us-sidebar">
-        <p>Are you a jewelry enthusiast wanting to talk and learn more about this fascinating universe? Join our community group chat.</p>
+        <h4>Are you a jewelry enthusiast wanting to talk and learn more about this fascinating universe? Join our community group chat.</h4>
         <button onClick={handleOpenChat}>Join chat</button>
       </div>
       <ChatBox isOpen={isChatOpen} onClose={handleCloseChat} />
