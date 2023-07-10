@@ -5,7 +5,7 @@ import Home from "./Home"
 import { BrowserRouter as Router, Route,Switch } from 'react-router-dom';
 import MaintenanceTips from './MaintenanceTips';
 import ContactUs from './ContactUs';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App (){
   return (
