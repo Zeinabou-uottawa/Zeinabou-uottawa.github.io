@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.2dd45289.css",
-    "main.js": "/static/js/main.b3282788.js",
-    "static/media/homee.jpg": "/static/media/homee.64b00f987a0849952e62.jpg",
-    "static/media/homepage.jpg": "/static/media/homepage.90bc2a433b0c05d8477a.jpg",
-    "static/media/home.jpg": "/static/media/home.ba92a360db5ba0afc31b.jpg",
-    "index.html": "/index.html",
-    "main.2dd45289.css.map": "/static/css/main.2dd45289.css.map",
-    "main.b3282788.js.map": "/static/js/main.b3282788.js.map"
+    "main.css": "/zeinabou-uottawa/static/css/main.2dd45289.css",
+    "main.js": "/zeinabou-uottawa/static/js/main.489ac7c4.js",
+    "static/media/homee.jpg": "/zeinabou-uottawa/static/media/homee.64b00f987a0849952e62.jpg",
+    "static/media/homepage.jpg": "/zeinabou-uottawa/static/media/homepage.90bc2a433b0c05d8477a.jpg",
+    "static/media/home.jpg": "/zeinabou-uottawa/static/media/home.ba92a360db5ba0afc31b.jpg",
+    "index.html": "/zeinabou-uottawa/index.html",
+    "main.2dd45289.css.map": "/zeinabou-uottawa/static/css/main.2dd45289.css.map",
+    "main.489ac7c4.js.map": "/zeinabou-uottawa/static/js/main.489ac7c4.js.map"
   },
   "entrypoints": [
     "static/css/main.2dd45289.css",
-    "static/js/main.b3282788.js"
+    "static/js/main.489ac7c4.js"
   ]
 }
