@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/zbert.github.io/static/css/main.2dd45289.css",
-    "main.js": "/zbert.github.io/static/js/main.8f863f5b.js",
-    "static/media/homee.jpg": "/zbert.github.io/static/media/homee.64b00f987a0849952e62.jpg",
-    "static/media/homepage.jpg": "/zbert.github.io/static/media/homepage.90bc2a433b0c05d8477a.jpg",
-    "static/media/home.jpg": "/zbert.github.io/static/media/home.ba92a360db5ba0afc31b.jpg",
-    "index.html": "/zbert.github.io/index.html",
-    "main.2dd45289.css.map": "/zbert.github.io/static/css/main.2dd45289.css.map",
-    "main.8f863f5b.js.map": "/zbert.github.io/static/js/main.8f863f5b.js.map"
+    "main.css": "/static/css/main.2dd45289.css",
+    "main.js": "/static/js/main.b3282788.js",
+    "static/media/homee.jpg": "/static/media/homee.64b00f987a0849952e62.jpg",
+    "static/media/homepage.jpg": "/static/media/homepage.90bc2a433b0c05d8477a.jpg",
+    "static/media/home.jpg": "/static/media/home.ba92a360db5ba0afc31b.jpg",
+    "index.html": "/index.html",
+    "main.2dd45289.css.map": "/static/css/main.2dd45289.css.map",
+    "main.b3282788.js.map": "/static/js/main.b3282788.js.map"
   },
   "entrypoints": [
     "static/css/main.2dd45289.css",
-    "static/js/main.8f863f5b.js"
+    "static/js/main.b3282788.js"
   ]
 }
