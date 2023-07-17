@@ -12,7 +12,7 @@ function App (){
     <Router>
       <Navbar />
     <Switch>
-      <Route exact path="/zbert.github.io" component={Home} />
+      <Route exact path="/" component={Home} />
 
       <Route exact path="/contact-us" component={ContactUs} />
       <Route exact path="/maintenance-tips" component={MaintenanceTips} />
