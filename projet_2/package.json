@@ -1,7 +1,7 @@
 {
   "name": "projet_2",
   "version": "0.1.0",
-  "homepage": "https://zeinabou-uottawa.github.io/zeinabou-uottawa",
+  "homepage": "https://zeinabou-uottawa.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
