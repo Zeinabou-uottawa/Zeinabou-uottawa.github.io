@@ -34,7 +34,7 @@ function Home() {
           <Carousel.Caption className="carousel-caption">
             <div className="carousel-content">
               <h3>Welcome to our site dedicated to the world of jewelry, where elegance and refinement come to life! </h3>
-              <p>Some description about Carousel Item 1</p>
+              <p>Our site offers an extensive collection of carefully selected jewelry, ranging from sparkling rings to sumptuous necklaces, from elegant earrings to charming bracelets. Whether you're looking for jewelry for a special occasion or just to treat yourself, we've got you covered.</p>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
