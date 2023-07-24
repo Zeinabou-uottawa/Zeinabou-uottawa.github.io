@@ -136,3 +136,15 @@
   .page-footer {
     margin-top: 80px; /* Adjust the desired spacing between images and footer */
   }
+
+  .frBttn {
+    background-color: #000;
+    color: white;
+    /* Add any other styling you need for the button */
+  }
+  .enBttn {
+    background-color: #000;
+    color: white;
+    /* Add any other styling you need for the button */
+  }
+  

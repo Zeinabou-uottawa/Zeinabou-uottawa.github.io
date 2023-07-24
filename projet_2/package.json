@@ -1,22 +1,32 @@
 {
   "name": "projet_2",
   "version": "0.1.0",
-  
   "private": true,
   "dependencies": {
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@progress/kendo-react-data-tools": "^5.15.0",
+    "@progress/kendo-react-dateinputs": "^5.15.0",
+    "@progress/kendo-react-dropdowns": "^5.15.0",
+    "@progress/kendo-react-form": "^5.15.0",
+    "@progress/kendo-react-labels": "^5.15.0",
+    "@progress/kendo-react-upload": "^5.15.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.0",
+    "i18next": "^23.2.11",
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
+    "react-form-stepper": "^2.0.3",
+    "react-i18next": "^13.0.2",
+    "react-icons": "^4.10.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "5.0.1",
+    "styled-components": "^6.0.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

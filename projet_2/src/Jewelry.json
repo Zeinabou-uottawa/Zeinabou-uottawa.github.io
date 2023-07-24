@@ -1,0 +1,115 @@
+{ "products": [
+   
+    {
+        "id": 1,
+        "name": "Havana",
+        "material": "Gold",
+        "type": "Bracelet",
+        "price": 99.00,
+        "stock": 5
+    },
+    {
+        "id": 2,
+        "name": "Leaf",
+        "type": "Necklace",
+        "material": "Silver",
+        "price": 42.00,
+        "stock": 4
+    },
+    {
+        "id": 3,
+        "name": "Kira",
+        "type": "Ring",
+        "material": "Platinium",
+        "price": 34.00,
+        "stock": 12
+    },
+    {
+        "id": 4,
+        "type": "Buckle",
+        "name": "Rainbow",
+        "material": "Diamond",
+        "price": 19.00,
+        "stock": 6
+    },
+    {
+        "id": 5,
+        "type": "Necklace",
+        "name": "Fifi",
+        "material": "Emerald",
+        "price": 19.00,
+        "stock": 0
+    },
+    {
+        "id": 6,
+        "type": "Bracelet",
+        "material": "Pearl",
+        "name": "Bold",
+        "price": 167.00,
+        "stock": 6
+    },
+    {
+        "id": 7,
+        "name": "Cara",
+        "type": "Ring",
+        "material": "Ruby",
+        "price": 30.00,
+        "stock": 5
+    },
+    {
+        "id": 8,
+        "name": "Vahana",
+        "type": "Buckle",
+        "material": "Gold",
+        "price": 49.99,
+        "stock": 9
+       
+    },
+    {
+        "id": 9,
+        "name": "Shirley",
+        "type": "Bracelet",
+        "material": "Silver",
+        "price": 49.99,
+        "offer": 39.99,
+        "stock": 9
+        
+    },
+    {
+        "id": 10,
+        "name": "Sprinkle",
+        "type": "Necklace",
+        "material": "Platinium",
+        "price": 75.00,
+        "stock": 2
+        
+    },
+    {
+        "id": 11,
+        "name": "Didi",
+        "type": "Ring",
+        "material": "Diamond",
+        "price": 175.50,
+        "stock": 1
+        
+    },
+    {
+        "id": 12,
+        "name": "Prya",
+        "type": "Buckle",
+        "material": "Emerald",
+        "price": 270.00,
+        "stock": 10
+        
+    },
+    {
+        "id": 13,
+        "name": "Ceecee",
+        "type": "Bracelet",
+        "material": "Pearl",
+        "price": 540.00,
+        "stock": 5
+        
+    }
+    ]
+}

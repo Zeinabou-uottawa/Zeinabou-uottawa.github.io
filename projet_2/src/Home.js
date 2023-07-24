@@ -1,25 +1,60 @@
-import React from 'react';
-import './styles.css';
+import React from "react";
+import { data } from "./BestSellers";
 import homepage from './homepage.jpg'
 import home from './home.jpg'
 import homee from './homee.jpg'
-import { Image } from 'react-bootstrap';
+import JewelryItems from "./JewelryItems";
+import { Carousel } from "react-bootstrap";
+import "./HomeStyles.css";
 
-const Home = () => {
+function Home() {
   return (
-    <div className="homepage">
-      <h1>Welcome to our site dedicated to the world of jewelry, where elegance and refinement come to life!</h1>
-      <h2>Best sellers:</h2>
-      <div className="image-container">
-        <Image  src={homepage} alt="Article 1" className="article-image" />
-        <img src={home} alt="Article 2" className="article-image" />
-        <img src={homee} alt="Article 3" className="article-image" />
+    <div className="home">
+      <Carousel className="carousel-container">
+        <Carousel.Item>
+          <img
+            className="carousel-image"
+            src={home}
+            alt="Carousel Image 1"
+          />
+          <Carousel.Caption className="carousel-caption">
+            <div className="carousel-content">
+              <h3>Welcome to our site dedicated to the world of jewelry, where elegance and refinement come to life!</h3>
+              <p>Our site offers an extensive collection of carefully selected jewelry, ranging from sparkling rings to sumptuous necklaces, from elegant earrings to charming bracelets. Whether you're looking for jewelry for a special occasion or just to treat yourself, we've got you covered.
+</p>
+            </div>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="carousel-image"
+            src={homee}
+            alt="Carousel Image 2"
+          />
+          <Carousel.Caption className="carousel-caption">
+            <div className="carousel-content">
+              <h3>Welcome to our site dedicated to the world of jewelry, where elegance and refinement come to life! </h3>
+              <p>Some description about Carousel Item 1</p>
+            </div>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
+      <h1 className="homeTitle">Best sellers</h1>
+      <div className="JewelryList">
+        {data.map((jewelryItems, key) => {
+          return (
+            <JewelryItems
+              key={key}
+              image={jewelryItems.image}
+              name={jewelryItems.name}
+              price={jewelryItems.price}
+             
+            />
+          );
+        })}
       </div>
-      <footer className="page-footer">
-    <p>© 2023 JewelryZ.</p>
-  </footer>
     </div>
   );
-};
-export default Home;
+}
 
+export default Home;

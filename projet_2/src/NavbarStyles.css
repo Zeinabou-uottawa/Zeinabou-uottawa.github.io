@@ -3,7 +3,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     background-color: #E8E7DC;
-    padding: 20px 80px;
+    padding: 9px 80px;
     box-shadow: 0 5px 15px rgba(rgb(6, 6, 6), rgb(5, 5, 5), rgb(5, 5, 5), alpha);
     border-bottom: 2px solid #060606; /* Change the color and size of the bottom border */
 
@@ -30,3 +30,25 @@ nav{
     color: aliceblue;
 
 }
+
+
+.cart-container {
+    display: flex;
+    align-items: center;
+    margin-left: 10px; /* Adjust the spacing as needed */
+    cursor: pointer;
+  }
+  
+  .cart-container .fa-shopping-cart {
+    font-size: 24px;
+    margin-right: 5px;
+  }
+  
+  .cart-items {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 3px 6px;
+    border-radius: 50%;
+    font-size: 14px;
+  }
+  
